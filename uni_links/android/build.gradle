@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'name.gozey.uni_links' // 👈 Add this line
+    
     compileSdkVersion 28
 
     defaultConfig {
